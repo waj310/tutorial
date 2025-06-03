@@ -5,7 +5,7 @@ on : [push]
 
 jobs:
     run-shwll-commands:
-        runs-on: ubentu-latest
+        runs-on: ubuntu-latest
         steps:
             - name: Echo A String
               run: echo "Hello World"
