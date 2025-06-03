@@ -1,0 +1,15 @@
+
+
+name: FirstWorkflow
+on : [push]
+
+jobs:
+    run-shwll-commands:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Echo A String
+              run: echo "Hello World"
+            - name: Multiline Command
+              run: |
+               node -v
+               npm -v
